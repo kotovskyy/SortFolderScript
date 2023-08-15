@@ -44,8 +44,12 @@ name you want it to be):<br>
 2. Give execute permission to the script:
 `chmod +x ~/bin/sortFolder.sh`
 3. Put this code into the script:
-        #!/bin/sh
-        python /path/to/python/script $1
+
+```bash
+#!/bin/sh
+python /path/to/python/script $1
+```
+
 4. Save your scipt file
 
 Now from any directory you can simply use:

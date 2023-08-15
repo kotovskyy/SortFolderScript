@@ -3,7 +3,7 @@ import sys
 import shutil
 
 # first argument: path to dir to sort
-dirpath = sys.argv[1]
+dirpath = os.getcwd() if len(sys.argv) < 2 else sys.args[1]
 # get all files from `dirpath`
 files = os.listdir(dirpath)
 # get all regular files from `files` list

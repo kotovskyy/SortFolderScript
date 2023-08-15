@@ -43,7 +43,7 @@ name you want it to be):<br>
 `touch ~/bin/sortFolder.sh`
 2. Give execute permission to the script:
 `chmod +x ~/bin/sortFolder.sh`
-3. Put this code into the script:
+3. Put this code into the script (remember to use actual path to the script):
 
 ```bash
 #!/bin/sh

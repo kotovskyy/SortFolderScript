@@ -47,7 +47,7 @@ name you want it to be):<br>
 
 ```bash
 #!/bin/sh
-python /path/to/python/script $1
+python3 /path/to/python/script $1
 ```
 
 4. Save your scipt file
